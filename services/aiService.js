@@ -1,6 +1,6 @@
 // services/aiService.js
 const { generateContent } = require("../config/gemini");
-const { rankCourses } = require("./scoring");
+const { rankCourses } = require("../utils/scoring");
 
 /**
  * Calls Gemini AI to score and explain relevance of a single course

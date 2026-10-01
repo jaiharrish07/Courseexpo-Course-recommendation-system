@@ -4,7 +4,7 @@
 // Includes optional table clearing and certification cost flag.
 // !! USER MUST REPLACE PLACEHOLDER DATA IN 'coursesData' WITH REAL, CURRENT DATA IN INR !!
 
-const pool = require('./config/db');
+const pool = require('../config/db');
 require('dotenv').config();
 
 // --- Configuration ---
